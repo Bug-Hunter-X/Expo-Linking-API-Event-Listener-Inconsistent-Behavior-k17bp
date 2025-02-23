@@ -1,0 +1,1 @@
+This repository demonstrates a bug in the Expo Linking API where the `Linking.addEventListener` does not consistently trigger its callback when the app is in the background. The issue occurs intermittently, making debugging difficult. The solution modifies the event listener setup to improve reliability.
