@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to handle deep links.  The `Linking.addEventListener` sometimes fails to trigger the callback, especially when the app is already running in the background and a deep link is opened. The link is received by the OS but not processed by the Expo app. 
